@@ -130,25 +130,25 @@ Adicione capturas de tela demonstrando:
 
 **Imagem 1 – Tela de listagem**
 
-[Inserir imagem]
+![Tela Listagem](image-1.png)
 
 **Imagem 2 – Formulário de cadastro**
 
-[Inserir imagem]
+![Tela Cadastro](image.png)
 
 **Imagem 3 – Cadastro funcionando**
 
-[Inserir imagem]
+![Cadastro funcionando](image-3.png)
 
 **Imagem 4 – Registro inserido no banco de dados**
 
-[Inserir imagem]
+![Registro Banco de Dados](image-2.png)
 
 ## 8. Repositórios
 
-**Back-End (Fork):** [Inserir link]
+**Back-End (Fork):** [Back End](https://github.com/tiagoportes-droid/ProjetoFullStack.git)
 
-**Front-End:** [Inserir link]
+**Front-End:** [Front End](https://github.com/tiagoportes-droid/ProjetoFullStack2.git)
 
 ## 9. Conclusão do aluno
 
@@ -161,7 +161,9 @@ Explique com suas palavras:
 
 [Escreva sua conclusão aqui.]
 
----
+A Comunicação funciona a partir do endpoint cadastrado na outra pagina, alem do mais a finalidade do POST é poder adicionar o valor no json que logo em segudia pode e deve ser levado para o banco de dados.
+Nós ultilizamos pois o0 asynca e o await fazem so programa espera para poder fazer o fetch por exemplo quando precisamo ultilziar o banco de dados, mas ele demora para carregar e por isso não carrega ai nó ultilizamos o async e await. Já o try e catch, são apenas um if e else melhorado ele apenas executa oq esta dentro do try e se der algum erro executa o catch.
+De inicio a maior dificuldade é apnas entender como funciona, mas logo apos isso não sent nenhuma dificuldade.
 
 ## Créditos
 
