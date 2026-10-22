@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/cadastro.js" defer></script>
+    <title>Cadastrar Pessoa</title>
+  </head>
+  <body>
+    <main class="conteiner">
+      <h1>Cadastrar Pessoa</h1>
+      <form id="formCadastro">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" required maxlength="100" />
+
+        <label for="idade">Idade</label>
+        <input type="text" id="idade" required max="130" />
+
+        <div class="acoes">
+            <button type="submit">Cadastrar</button>
+            <a href="index.html" class="botao secundario">Cancelar</a>
+        </div>
+      </form>
+      <p id="mensagem" role="status"></p>
+    </main>
+  </body>
+</html>

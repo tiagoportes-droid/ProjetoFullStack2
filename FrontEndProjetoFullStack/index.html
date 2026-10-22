@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="module" defer src="./js/listar.js"></script>
+    <title>Pessoas Cadastradas</title>
+  </head>
+  <body>
+    <main class="conteiner">
+      <header class="cabecalho">
+        <h1>Pessoas Cadastradas</h1>
+        <a href="cadastro.html" class="botao">+ Nova Pessoa</a>
+      </header>
+      <p id="mensagem" role="status"></p>
+
+      <div class="tabela-conteiner">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nome</th>
+              <th>Cidade</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody id="corpoTabela"></tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>
